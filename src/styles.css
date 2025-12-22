@@ -16,3 +16,54 @@ body {
   grid-template-rows: auto 1fr;
   min-height: 100vh;
 }
+
+/* Sidebar */
+.sidebar {
+  grid-row: 1 / -1;
+  background-color: #1992d4;
+  color: white;
+  padding: 20px;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.dashboard-icon {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+
+.branding h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-list {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.nav-item:hover {
+  transform: translateX(5px);
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
