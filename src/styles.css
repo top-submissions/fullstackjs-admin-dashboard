@@ -233,3 +233,64 @@ body {
 .action-icon:hover {
   fill: #1992d4;
 }
+
+/* Right Sidebar */
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.announcements-container,
+.trending-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-item {
+  padding: 15px 0;
+}
+
+.announcement-item:not(:last-child) {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.announcement-item h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.announcement-item p {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+.trending-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0b429;
+}
+
+.trending-info .username {
+  font-weight: 700;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.trending-info .project {
+  color: #666;
+  font-size: 0.8rem;
+}
