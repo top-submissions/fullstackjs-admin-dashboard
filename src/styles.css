@@ -67,3 +67,99 @@ body {
   height: 20px;
   fill: white;
 }
+
+/* Header */
+.header {
+  grid-column: 2;
+  background-color: white;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e2e8f0;
+  font-size: 1rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.notification-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.avatar-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0b429;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-large {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f0b429;
+}
+
+.greeting-text h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1992d4;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #147bb3;
+}
