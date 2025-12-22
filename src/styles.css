@@ -163,3 +163,22 @@ body {
 .btn:hover {
   background-color: #147bb3;
 }
+
+/* Main Content */
+.main-content {
+  grid-column: 2;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+  background-color: #e2e8f0;
+}
+
+.projects h3,
+.announcements h3,
+.trending h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
