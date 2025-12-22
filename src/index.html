@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="branding">
+          <svg class="dashboard-icon">
+            <use
+              href="../assets/images/icons/sidebar/dashboard.svg#dashboard"
+            ></use>
+          </svg>
+          <h1>Dashboard</h1>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use href="../assets/images/icons/sidebar/home.svg#home"></use>
+              </svg>
+              <span>Home</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/profile.svg#profile"
+                ></use>
+              </svg>
+              <span>Profile</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/message.svg#message"
+                ></use>
+              </svg>
+              <span>Messages</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/history.svg#history"
+                ></use>
+              </svg>
+              <span>History</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/tasks.svg#tasks"
+                ></use>
+              </svg>
+              <span>Tasks</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/communities.svg#communities"
+                ></use>
+              </svg>
+              <span>Communities</span>
+            </li>
+          </ul>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/settings.svg#settings"
+                ></use>
+              </svg>
+              <span>Settings</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/support.svg#support"
+                ></use>
+              </svg>
+              <span>Support</span>
+            </li>
+            <li class="nav-item">
+              <svg class="nav-icon">
+                <use
+                  href="../assets/images/icons/sidebar/privacy.svg#privacy"
+                ></use>
+              </svg>
+              <span>Privacy</span>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Header -->
+      <header class="header">
+        <div class="search-bar">
+          <svg class="search-icon">
+            <use
+              href="../assets/images/icons/notification.svg#notification"
+            ></use>
+          </svg>
+          <input type="search" placeholder="Search..." />
+        </div>
+
+        <div class="user-info">
+          <svg class="notification-icon">
+            <use
+              href="../assets/images/icons/notification.svg#notification"
+            ></use>
+          </svg>
+          <svg class="avatar-small">
+            <use
+              href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+            ></use>
+          </svg>
+          <span class="username">Morgan Oakley</span>
+        </div>
+
+        <div class="greeting">
+          <svg class="avatar-large">
+            <use
+              href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+            ></use>
+          </svg>
+          <div class="greeting-text">
+            <p>Hi there,</p>
+            <h2>Morgan Oakley (@morgan)</h2>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <section class="projects">
+          <h3>Your Projects</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Super Cool Project</h4>
+                <p>
+                  Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                  nibh erat, id facilisis felis accumsan nec.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Less Cool Project</h4>
+                <p>
+                  Nullam condimentum ipsum ut lectus vehicula consectetur.
+                  Quisque sed dolor tincidunt, consectetur sapien et, facilisis
+                  dolor.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Impossible App</h4>
+                <p>
+                  In hac habitasse platea dictumst. Vivamus dictum rutrum arcu,
+                  a placerat velit sagittis id.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Easy Peasy App</h4>
+                <p>
+                  Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+                  urna eget accumsan aliquam.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Ad Blocker</h4>
+                <p>
+                  Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                  vel, pharetra hendrerit felis.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <h4>Money Maker</h4>
+                <p>
+                  Praesent convallis, libero quis congue elementum, nunc ante
+                  faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                </p>
+              </div>
+              <div class="card-actions">
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/favorite.svg#favorite"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/views.svg#views"
+                  ></use>
+                </svg>
+                <svg class="action-icon">
+                  <use
+                    href="../assets/images/icons/cards/share.svg#share"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="right-sidebar">
+          <section class="announcements">
+            <h3>Announcements</h3>
+            <div class="announcements-container">
+              <div class="announcement-item">
+                <h5>Site Maintenance</h5>
+                <p>
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac.
+                </p>
+              </div>
+              <div class="announcement-item">
+                <h5>Community Share Day</h5>
+                <p>Nam vel lectus tincidunt, rutrum nulla eu, omare libero.</p>
+              </div>
+              <div class="announcement-item">
+                <h5>Updated Privacy Policy</h5>
+                <p>
+                  Phasellus efficitur nisi eget elit consectetur, eget
+                  condimentum ante auctor.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="trending">
+            <h3>Trending</h3>
+            <div class="trending-container">
+              <div class="trending-item">
+                <svg class="trending-avatar">
+                  <use
+                    href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+                  ></use>
+                </svg>
+                <div class="trending-info">
+                  <p class="username">@regan</p>
+                  <p class="project">World Peace Builder</p>
+                </div>
+              </div>
+              <div class="trending-item">
+                <svg class="trending-avatar">
+                  <use
+                    href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+                  ></use>
+                </svg>
+                <div class="trending-info">
+                  <p class="username">@morgan</p>
+                  <p class="project">Super Cool Project</p>
+                </div>
+              </div>
+              <div class="trending-item">
+                <svg class="trending-avatar">
+                  <use
+                    href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+                  ></use>
+                </svg>
+                <div class="trending-info">
+                  <p class="username">@kendall</p>
+                  <p class="project">Life Changing App</p>
+                </div>
+              </div>
+              <div class="trending-item">
+                <svg class="trending-avatar">
+                  <use
+                    href="../assets/images/icons/profile-avatar.svg#profile-avatar"
+                  ></use>
+                </svg>
+                <div class="trending-info">
+                  <p class="username">@alex</p>
+                  <p class="project">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
